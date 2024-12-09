@@ -18,6 +18,59 @@ This repository contains a Node.js server for the Snappic application. It provid
 ## Getting Started
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/manneJan89/snappic_node
-   cd snappic_node
+```bash
+git clone https://github.com/manneJan89/snappic_node
+cd snappic_node
+```
+
+2. **Install the project dependencies**
+
+```bash
+npm install
+```
+
+---
+
+## Running the server
+
+### Start the Node Backend Server
+
+Run the following command to start the backend server:
+
+```bash
+nodemon
+```
+
+The API will be availalble at `http://localhost:8000`
+
+---
+
+## API Overview
+
+This backend provides a RESTful API for interacting with the application data. Below are the key endpoints:
+
+### Endpoints
+
+1. Get All Streams
+
+```http
+GET /api/stream
+```
+
+Retrieves a list of all streams
+
+2. Add a New Stream
+
+```http
+POST /api/stream
+```
+
+Adds a new sstream to the dataabase
+
+---
+
+## Development Notes
+
+- This backend uses Express.js as the web framework.
+- Live reload during development is enabled using nodemon.
+- Use tools like Postman or cURL to test API endpoints.

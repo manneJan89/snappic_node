@@ -41,6 +41,7 @@ const streams = [
 ];
 
 const totalDuration = calculateTotalDuration(streams); // Output: 120 minutes
+```
 
 ---
 
@@ -86,6 +87,7 @@ const streams = [
 ];
 
 const { overlappingMinutes, overlappingStreamCount } = calculateOverlappingTime(streams);
+```
 
 ---
 
@@ -124,6 +126,7 @@ const streams = [
 ];
 
 const effectiveDuration = calculateEffectiveDuration(streams); // Output: 135 minutes
+```
 
 ---
 
@@ -145,3 +148,4 @@ Converts a time string in `HH:mm` format into total minutes since midnight.
 
 ```javascript
 const minutes = timeToMinutes('12:30'); // Output: 750
+```
